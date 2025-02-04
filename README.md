@@ -1,6 +1,6 @@
-# Machine Learning A-Z: AI & Python [2025] - Course Codes
+# Machine Learning A-Z: AI & ipynbthon [2025] - Course Codes
 
-This repository contains the code implementations from the **Machine Learning A-Z: AI & Python [2025]** course on Udemy, led by **Kirill Eremenko** and **Hadelin de Ponteves, Hon. PhD**. The course provides hands-on experience in machine learning, deep learning, and artificial intelligence using **Python**, **TensorFlow**, and **Keras**.
+This repository contains the code implementations from the **Machine Learning A-Z: AI & ipynbthon [2025]** course on Udemy, led by **Kirill Eremenko** and **Hadelin de Ponteves, Hon. PhD**. The course provides hands-on experience in machine learning, deep learning, and artificial intelligence using **ipynbthon**, **TensorFlow**, and **Keras**.
 
 ## Course Overview
 
@@ -28,37 +28,63 @@ Each folder in this repository corresponds to a specific section of the course a
 ```
 Machine-Learning-A-Z-Course-Codes/
 │
+├── Data-Preprocessing-Template/
+|   └──data_preprocessing_.ipynb
+|
 ├── Supervised-Learning/
-│   ├── linear_regression.py
-│   ├── decision_trees.py
-│   └── random_forest.py
+│   └── Regression/
+|   |    |──simple_linear_regression.ipynb
+|   |    |── multiple_linear_regression.ipynb
+|   |    |── polynomial_regression.ipynb
+|   |    |── support_vector_regression.ipynb
+│   |    ├── decision_tree_regression.ipynb
+│   |    |── random_forest_regression.ipynb
+|   |    └── r2_score_regression.ipynb   
+|   |
+│   └── Classification/
+|   |    ├── logistic_regression.ipynb
+|   |    |── knn_classification.ipynb
+|   |    |── svm_classification.ipynb
+|   |    |── kernel_svm_classification.ipynb
+│   |    ├── naive_bayes_classification.ipynb
+│   |    |── random_forest_classification.ipynb
+|   |    └── decesion_tree_classification.ipynb
+|   |
+|   └── XGBoost/
+|        |── xg_boost.ipynb
 │
 ├── Unsupervised-Learning/
-│   ├── k_means.py
-│   ├── hierarchical_clustering.py
-│   └── pca_lda.py
+│   ├── k_means.ipynb
+│   └── hierarchical_clustering.ipynb
 │
+├── Reinforcement-Learning/
+│   ├── thomspon_sampling.ipynb
+│   └── upper_confidence_bound.ipynb
+|
+├── Association-Rule-Learning/
+│   ├── apriori.ipynb
+│   └── eclat.ipynb
+|
 ├── NLP/
-│   ├── text_preprocessing.py
-│   └── sentiment_analysis.py
+│   └── sentiment_analysis.ipynb
 │
-├── Computer-Vision/
-│   ├── image_classification.py
-│   └── object_detection.py
+├── Deep Learning/
+│   ├── artificial_neural_network.ipynb
+│   └── convolutional_neural_network.ipynb
 │
 ├── Model-Optimization/
-│   ├── hyperparameter_tuning.py
-│   └── cross_validation.py
+│   ├── grid_search.ipynb
+│   └── k_fold_cross_validation.ipynb
 │
 └── Dimensionality-Reduction/
-    ├── pca.py
-    ├── kernel_pca.py
-    └── lda.py
+    ├── pca.ipynb
+    ├── kernel_pca.ipynb
+    └── lda.ipynb
 ```
 
 ## Installation
 
-To run the code locally, you'll need Python installed on your machine. You can install the required libraries using the following command:
+To run the code locally, you'll need ipynbthon installed on your machine. You can install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -66,7 +92,7 @@ pip install -r requirements.txt
 
 The **requirements.txt** file includes essential libraries like:
 
-- `numpy`
+- `numipynb`
 - `pandas`
 - `scikit-learn`
 - `tensorflow`
@@ -76,12 +102,12 @@ The **requirements.txt** file includes essential libraries like:
 
 ## Usage
 
-Each Python script in this repository corresponds to a specific lesson or concept in the course. You can run the scripts directly to see the models in action and learn how to implement machine learning techniques in Python.
+Each ipynbthon script in this repository corresponds to a specific lesson or concept in the course. You can run the scripts directly to see the models in action and learn how to implement machine learning techniques in ipynbthon.
 
 For example, to run a linear regression model:
 
 ```bash
-python Supervised-Learning/linear_regression.py
+ipynbthon Supervised-Learning/linear_regression.ipynb
 ```
 
 ## Contributing
